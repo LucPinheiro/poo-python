@@ -14,6 +14,33 @@ Puedes explorar las soluciones completas cambiando a las siguientes ramas:
 *   **`ejercicio_5_parque_tematico_ficheros`**: Aplicación integral con clases abstractas (`abc.ABC`), validación avanzada de datos y persistencia en múltiples formatos de disco planos y estructurados (`.txt`, `.json`, `.xml`).
 
 ---
+### 📂 Vista de Archivos por Rama
+
+Cada rama contiene una estructura de archivos limpia enfocada en su lógica de negocio:
+
+```text
+poo-python/ (Rama: main)
+└── README.md                               # Enunciado general y guía del repositorio
+
+poo-python/ (Rama: ejercicio_1_taller)
+└── taller_mecanico.py                      # Clases Cliente, Reparacion y TareaReparacion
+
+poo-python/ (Rama: ejercicio_2_hotel)
+└── gestion_hotel.py                        # Factoría de reservas desde diccionarios
+
+poo-python/ (Rama: ejercicio_3_alquiler)
+└── alquiler_vehiculos.py                   # Propiedades encapsuladas y sobrecarga de operadores
+
+poo-python/ (Rama: ejercicio_4_comercio_electronico)
+└── comercio_electronico.py                 # Herencia múltiple y métodos estáticos
+
+poo-python/ (Rama: ejercicio_5_parque_tematico_ficheros)
+├── parque_tematico.py                      # Clases abstractas y lógica del sistema principal
+├── jornada.txt                             # Informe diario de ingresos en texto plano
+├── atracciones.json                        # Serialización estructurada de datos del parque
+└── atracciones.xml                         # Volcado jerárquico del estado de las atracciones
+```
+
 
 ## 🚀 Cómo Clonar y Navegar por el Repositorio
 
