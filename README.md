@@ -13,33 +13,34 @@ Puedes explorar las soluciones completas cambiando a las siguientes ramas:
 *   **`ejercicio_4_comercio_electronico`**: Plataforma de e-commerce que implementa herencia múltiple, atributos de clase, métodos estáticos y control robusto de excepciones.
 *   **`ejercicio_5_parque_tematico_ficheros`**: Aplicación integral con clases abstractas (`abc.ABC`), validación avanzada de datos y persistencia en múltiples formatos de disco planos y estructurados (`.txt`, `.json`, `.xml`).
 
----
-## 📁 Vista de Archivos por Rama
+## 🔗 Vista de Archivos por Rama
 
 Cada rama contiene una estructura de archivos limpia enfocada en su lógica de negocio:
 
-* **[poo-python/ (Rama: main)](../../tree/main)**
-  * `README.md` # Enunciado general y guía del repositorio
+```text
+poo-python/ (Rama: [main](../../tree/main))
+└── README.md                                  # Enunciado general y guía del repositorio
 
-* **[poo-python/ (Rama: ejercicio_1_taller)](../../tree/ejercicio_1_taller)**
-  * `taller_mechanico.py` # Clases Cliente, Reparacion y TareaReparacion
+poo-python/ (Rama: [ejercicio_1_taller](../../tree/ejercicio_1_taller))
+└── taller_mecanico.py                        # Clases Cliente, Reparacion y TareaReparacion
 
-* **[poo-python/ (Rama: ejercicio_2_hotel)](../../tree/ejercicio_2_hotel)**
-  * `gestion_hotel.py` # Factoría de reservas desde diccionarios
+poo-python/ (Rama: [ejercicio_2_hotel](../../tree/ejercicio_2_hotel))
+└── gestion_hotel.py                          # Factoría de reservas desde diccionarios
 
-* **[poo-python/ (Rama: ejercicio_3_alquiler)](../../tree/ejercicio_3_alquiler)**
-  * `alquiler_vehiculos.py` # Propiedades encapsuladas y sobrecarga de operadores
+poo-python/ (Rama: [ejercicio_3_alquiler](../../tree/ejercicio_3_alquiler))
+└── alquiler_vehiculos.py                     # Propiedades encapsuladas y sobrecarga de operadores
 
-* **[poo-python/ (Rama: ejercicio_4_comercio_electronico)](../../tree/ejercicio_4_comercio_electronico)**
-  * `comercio_electronico.py` # Herencia múltiple y métodos estáticos
+poo-python/ (Rama: [ejercicio_4_comercio_electronico](../../tree/ejercicio_4_comercio_electronico))
+└── comercio_electronico.py                   # Herencia múltiple y métodos estáticos
 
-* **[poo-python/ (Rama: ejercicio_5_parque_tematico_ficheros)](../../tree/ejercicio_5_parque_tematico_ficheros)**
-  * `parque_tematico.py` # Clases abstractas y lógica del sistema principal
-  * `jornada.txt` # Informe diario de ingresos en texto plano
-  * `atracciones.json` # Serialización estructurada de datos del parque
-  * `atracciones.xml` # Volcado jerárquico del estado de las atracciones
-
+poo-python/ (Rama: [ejercicio_5_parque_tematico_ficheros](../../tree/ejercicio_5_parque_tematico_ficheros))
+├── parque_tematico.py                        # Clases abstractas y lógica del sistema principal
+├── jornada.txt                               # Informe diario de ingresos en texto plano
+├── atracciones.json                          # Serialización estructurada de datos del parque
+└── atracciones.xml                           # Volcado jerárquico del estado de las atracciones
 ```
+
+
 
 
 ## 🚀 Cómo Clonar y Navegar por el Repositorio
