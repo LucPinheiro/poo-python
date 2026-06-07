@@ -16,7 +16,8 @@ Un hotel necesita estructurar la información de sus habitaciones y reservas.
   * `numero_huespedes`
   * `coste_estancia`
 * **Cálculo de coste:** La propiedad `coste_estancia` debe ser calculada de manera dinámica como:
-  $$\text{coste\_estancia} = (\text{habitacion.precio\_noche\_persona} \times \text{numero\_huespedes}) \times \text{numero\_noches}$$
+  `coste_estancia = (habitacion.precio_noche_persona * numero_huespedes) * numero_noches`
+
 
 ### Requerimientos de diseño:
 Además del constructor normal, se debe implementar un constructor alternativo: `Reserva.crear_desde_dict(data_dict)`, que permita instanciar una reserva a partir de un diccionario con la siguiente estructura:
